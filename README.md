@@ -26,6 +26,29 @@
 
 Enter container dimensions, cargo package dimensions, weight, quantity, price, and logistics fees. The tool returns an estimated loading quantity, weight summary, cost breakdown, average cost per loaded item, and a CSV report.
 
+## 详细使用方法 | Detailed usage
+
+### 中文
+
+1. 打开 `index.html`，先选择 20GP、40GP 等预设柜型，或手动填写柜内长宽高和最大载重。
+2. 在货物表中填写**包装后的尺寸**，再填写单重、数量、单价。尺寸单位为毫米，重量单位为千克。
+3. 填写海运费、起运港费、目的港费、其他费用和保险费率，比较不同柜型或包装方案。
+4. 查看预计装入件数、重量和费用明细；需要留档时点击“导出 CSV”。
+5. 把 CSV 发送给同事或导入报价表前，先人工复核柜型、包装和承运人报价。
+
+### English
+
+1. Open `index.html` and choose a preset such as 20GP or 40GP, or enter the internal dimensions and maximum payload manually.
+2. Add cargo using **packed dimensions**, unit weight, quantity, unit price, and the required fees. Dimensions are in millimeters and weight is in kilograms.
+3. Review estimated loaded quantity, weight, volume usage, insurance, and total cost. Export a CSV report when you need to share or archive the estimate.
+4. Treat the result as a planning estimate. Confirm packing rules, door clearance, weight distribution, and carrier pricing before making a final quotation.
+
+## 隐私说明 | Privacy
+
+所有柜型、货物和费用数据默认只保存在当前浏览器的本地存储中，项目没有内置服务器、账号系统或远程数据上传功能。清理浏览器数据、更换浏览器或使用无痕模式可能导致数据丢失。导出的 CSV 可能包含价格和货物信息，请按公司数据政策保存和分享。
+
+All container, cargo, and cost data stays in the current browser's local storage by default. This project has no built-in server, account system, or remote upload. Clearing browser data, switching browsers, or using private browsing may remove saved data. Exported CSV files may contain commercial information and should be stored and shared according to your organization's policy.
+
 柜型、货物及费用保存在当前浏览器的本地存储中；清理浏览器数据、更换浏览器或使用无痕模式可能丢失。货物资料不会主动上传到服务器。
 
 ## 计算范围与限制
